@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F1938F381BD43B8700A69272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1938F371BD43B8700A69272 /* AppDelegate.swift */; };
-		F1938F3A1BD43B8700A69272 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1938F391BD43B8700A69272 /* ViewController.swift */; };
 		F1938F3D1BD43B8700A69272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1938F3B1BD43B8700A69272 /* Main.storyboard */; };
 		F1938F3F1BD43B8700A69272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1938F3E1BD43B8700A69272 /* Assets.xcassets */; };
 		F1938F421BD43B8700A69272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1938F401BD43B8700A69272 /* LaunchScreen.storyboard */; };
+		F1938F4A1BD43D8600A69272 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1938F491BD43D8600A69272 /* FriendListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1938F4C1BD44DEC00A69272 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1938F4B1BD44DEC00A69272 /* FriendDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1938F341BD43B8700A69272 /* FriendBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1938F371BD43B8700A69272 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1938F391BD43B8700A69272 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1938F3C1BD43B8700A69272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1938F3E1BD43B8700A69272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1938F411BD43B8700A69272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1938F431BD43B8700A69272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1938F491BD43D8600A69272 /* FriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		F1938F4B1BD44DEC00A69272 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				F1938F371BD43B8700A69272 /* AppDelegate.swift */,
-				F1938F391BD43B8700A69272 /* ViewController.swift */,
+				F1938F491BD43D8600A69272 /* FriendListViewController.swift */,
+				F1938F4B1BD44DEC00A69272 /* FriendDetailViewController.swift */,
 				F1938F3B1BD43B8700A69272 /* Main.storyboard */,
 				F1938F3E1BD43B8700A69272 /* Assets.xcassets */,
 				F1938F401BD43B8700A69272 /* LaunchScreen.storyboard */,
@@ -134,8 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1938F3A1BD43B8700A69272 /* ViewController.swift in Sources */,
 				F1938F381BD43B8700A69272 /* AppDelegate.swift in Sources */,
+				F1938F4A1BD43D8600A69272 /* FriendListViewController.swift in Sources */,
+				F1938F4C1BD44DEC00A69272 /* FriendDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
